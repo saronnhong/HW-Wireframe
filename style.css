@@ -14,7 +14,6 @@ body {
 }
 header, #nav, #section, #aside, footer {
     background: #ebebeb;
-    
 }
 header {
     margin-top: 10px;
@@ -36,14 +35,15 @@ header {
     width: 495px;
     
 }
-#aside {
+aside {
     margin-bottom: 10px;
     padding-top: 40px;
     padding-bottom: 155px; 
     float: right;
     width: 47%;
+    
 }
-#article {
+article {
     float: left;
     color: #ebebeb;
     background: #777;
@@ -64,13 +64,14 @@ p {
     margin: 10px 20px 20px 20px;
     padding: 10px 10px 10px 10px;
 }
-#full {
-
+.full {
+    overflow: auto;
+    width: 100%;
+    
     
 }
 footer {
     clear: both;
-    margin-bottom: 10px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
